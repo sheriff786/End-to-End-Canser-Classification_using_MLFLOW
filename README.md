@@ -14,3 +14,36 @@
 8. Update the main.py  "end point"
 9. Update the dvc.yaml
 
+
+....
+# Step 02
+
+## MLflow
+
+Documentation
+
+MLflow tutorial
+
+#### cmd
+   mlflow ui
+
+
+## dagshub
+  dagshub
+
+MLFLOW_TRACKING_URI=https://dagshub.com/sheriff786/End-to-End-Canser-Classification_using_MLFLOW.mlflow \
+MLFLOW_TRACKING_USERNAME=sheriff786 \
+MLFLOW_TRACKING_PASSWORD=89b16177f0e2435725ac3ad5980f0fd215c37743 \
+python script.py
+
+Run this to export as env variables:
+```bash 
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/sheriff786/End-to-End-Canser-Classification_using_MLFLOW.mlflow
+
+export MLFLOW_TRACKING_USERNAME=sheriff786
+
+export MLFLOW_TRACKING_PASSWORD=89b16177f0e2435725ac3ad5980f0fd215c37743
+
+
+```
